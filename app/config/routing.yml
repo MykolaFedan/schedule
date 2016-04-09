@@ -1,0 +1,7 @@
+mlb:
+    resource: "@MLBBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+
+

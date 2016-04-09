@@ -1,0 +1,31 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}MLBBundle:Index:index{% endblock %}
+
+{% block body %}
+
+<h2><a href="/remote/2016">Контролер парсінга "https://api.fantasydata.net/mlb/v2/json/Games/"</a> </h2>
+
+<h3>/remote/{year}</h3>
+
+<h2><a href="/api/2016">Контролер local API </a></h2>
+
+<h3>/api/{year}</h2>
+
+<h2><a href="/table/2016">Контролер створення таблиці </a></h2>
+
+<h3>/table/{year}</h3>
+
+<br>
+
+<h3><a href="https://github.com/MykolaFedan/schedule">Посилання на Github </a></h3>
+
+<br>
+
+<br>
+
+<h3>P.S. На хостингу немає акселератора PHP. Контролер парсінга не перевіряє чи є вже дані в базі. </h2>
+
+
+
+{% endblock %}
