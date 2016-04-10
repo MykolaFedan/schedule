@@ -36,7 +36,7 @@ class ApiController extends Controller
 
         $mlb=json_encode($mlb,true);                                  
 
-      return new Response($mlb,200);
+      return new Response($mlb,200,array('Content-Type' => 'application/json'));
             
     }
 
